@@ -1,0 +1,64 @@
+.page-menu{
+    float: left;
+    width: 160px;
+    margin-top: 40px;
+}
+.navigation__list{
+    padding-top: 3px;
+}
+.navigation__item{
+    margin-bottom: 25px;
+}
+.navigation__link{
+    text-decoration: none;
+}
+.navigation__link_active .navigation__pic_main{
+    background-position: -23px 0;
+}
+.navigation__link_active .navigation__pic_feed{
+    background-position: -23px -18px;
+}
+.navigation__link_active .navigation__pic_team{
+    background-position: -23px -36px;
+}
+.navigation__link:hover .navigation__text, .navigation__link_active .navigation__text{
+    color: #000;
+}
+.navigation__link:hover .navigation__pic_main, .navigation__pic{
+    background-position: -23px 0;
+}
+.navigation__link:hover .navigation__pic_feed, .navigation__pic{
+    background-position: -23px -18px;
+}
+.navigation__link:hover .navigation__pic_team, .navigation__pic{
+    background-position: -23px -36px;
+}
+.navigation__pic{
+    background: url('../../img/icons/icons-menu.png') 0 0 no-repeat;
+    width: 23px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.navigation__pic_main{
+   background-position: 0 0;
+}
+.navigation__pic_feed{
+    background-position: 0 -18px;
+}
+.navigation__pic_team{
+    background-position: 0 -36px;
+}
+.navigation__text{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'robotobold', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #4b73b5;
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin-left: 5px;
+    width: 120px;
+    word-wrap: break-word;
+}

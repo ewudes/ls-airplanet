@@ -1,0 +1,79 @@
+.page-footer{
+    min-height: 75px;
+    min-width: 1120px;
+    background: #4b73b5;
+    margin-top: -75px;
+}
+.footer__left, .footer__center, .footer__right{
+    float: left;
+    width: 33%;
+}
+.footer__left{
+    padding: 10px 0 0 5px;
+}
+.footer__center{
+    text-align: center;
+}
+.footer__right{
+    text-align: right;
+}
+.footer__description{
+    display: inline-block;
+    width: 240px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+}
+.bold{
+    color: #fff;
+    font-family: 'robotobold', sans-serif;
+}
+.social{
+    display: inline-block;
+    text-align: left;
+}
+.social__title{
+    font-size: 14px;
+    font-family: 'robotobold', sans-serif;
+    color: #fff;
+}
+.social__item{
+    background: url('../../img/icons/icons-social.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 20px;
+    margin-right: 5px;
+    height: 20px;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.social__item--vk{
+    background-position: 0 0;
+}
+.social__item--vk:hover{
+    background-position: -20px 0;
+}
+.social__item--fb{
+    background-position: 0 -20px;
+}
+.social__item--fb:hover{
+    background-position: -20px -20px;
+}
+.social__item--google{
+    background-position: 0 -40px
+ }
+.social__item--google:hover{
+    background-position: -20px -40px
+ }
+.social__item--twitter{
+    background-position: 0 -60px;
+}
+.social__item--twitter:hover{
+    background-position: -20px -60px;
+}
+.social__item--mail{
+    background-position: 0 -80px;
+}
+.social__item--mail:hover{
+    background-position: -20px -80px;
+}
